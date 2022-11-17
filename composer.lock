@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2e4127cce1637c9a87a354984f926004",
+    "content-hash": "e6f8f6ef729ade99422fb86849612fc7",
     "packages": [
         {
             "name": "acquia/drupal-spec-tool",
@@ -4049,80 +4049,19 @@
         },
         {
             "name": "drupal/core-recommended",
-            "version": "9.2.7",
+            "version": "dev-default",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "87c998e8d60d6b2452b21827fb7b16f77d02a38a"
+                "reference": "91e393ab0433a83d1abc69374f400c9e76c86fb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/87c998e8d60d6b2452b21827fb7b16f77d02a38a",
-                "reference": "87c998e8d60d6b2452b21827fb7b16f77d02a38a",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/91e393ab0433a83d1abc69374f400c9e76c86fb0",
+                "reference": "91e393ab0433a83d1abc69374f400c9e76c86fb0",
                 "shasum": ""
             },
-            "require": {
-                "asm89/stack-cors": "1.3.0",
-                "composer/semver": "3.2.5",
-                "doctrine/annotations": "1.13.1",
-                "doctrine/lexer": "1.2.1",
-                "doctrine/reflection": "1.2.2",
-                "drupal/core": "9.2.7",
-                "egulias/email-validator": "2.1.25",
-                "guzzlehttp/guzzle": "6.5.5",
-                "guzzlehttp/promises": "1.4.1",
-                "guzzlehttp/psr7": "1.8.2",
-                "laminas/laminas-diactoros": "2.6.0",
-                "laminas/laminas-escaper": "2.7.0",
-                "laminas/laminas-feed": "2.14.1",
-                "laminas/laminas-stdlib": "3.3.1",
-                "laminas/laminas-zendframework-bridge": "1.2.0",
-                "masterminds/html5": "2.7.4",
-                "pear/archive_tar": "1.4.14",
-                "pear/console_getopt": "v1.4.3",
-                "pear/pear-core-minimal": "v1.10.10",
-                "pear/pear_exception": "v1.0.2",
-                "psr/cache": "1.0.1",
-                "psr/container": "1.1.1",
-                "psr/http-factory": "1.0.1",
-                "psr/http-message": "1.0.1",
-                "psr/log": "1.1.4",
-                "ralouphie/getallheaders": "3.0.3",
-                "stack/builder": "v1.0.6",
-                "symfony-cmf/routing": "2.3.3",
-                "symfony/console": "v4.4.25",
-                "symfony/debug": "v4.4.25",
-                "symfony/dependency-injection": "v4.4.25",
-                "symfony/deprecation-contracts": "v2.4.0",
-                "symfony/error-handler": "v4.4.25",
-                "symfony/event-dispatcher": "v4.4.25",
-                "symfony/event-dispatcher-contracts": "v1.1.9",
-                "symfony/http-client-contracts": "v2.4.0",
-                "symfony/http-foundation": "v4.4.25",
-                "symfony/http-kernel": "v4.4.25",
-                "symfony/mime": "v5.3.0",
-                "symfony/polyfill-ctype": "v1.23.0",
-                "symfony/polyfill-iconv": "v1.23.0",
-                "symfony/polyfill-intl-idn": "v1.23.0",
-                "symfony/polyfill-intl-normalizer": "v1.23.0",
-                "symfony/polyfill-mbstring": "v1.23.0",
-                "symfony/polyfill-php80": "v1.23.0",
-                "symfony/process": "v4.4.25",
-                "symfony/psr-http-message-bridge": "v2.1.0",
-                "symfony/routing": "v4.4.25",
-                "symfony/serializer": "v4.4.25",
-                "symfony/service-contracts": "v2.4.0",
-                "symfony/translation": "v4.4.25",
-                "symfony/translation-contracts": "v2.4.0",
-                "symfony/validator": "v4.4.25",
-                "symfony/var-dumper": "v5.3.0",
-                "symfony/yaml": "v4.4.25",
-                "twig/twig": "v2.14.6",
-                "typo3/phar-stream-wrapper": "v3.1.6"
-            },
-            "conflict": {
-                "webflo/drupal-core-strict": "*"
-            },
+            "default-branch": true,
             "type": "metapackage",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -4130,9 +4069,9 @@
             ],
             "description": "Locked core dependencies; require this project INSTEAD OF drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-recommended/tree/9.2.7"
+                "source": "https://github.com/drupal/core-recommended/tree/default"
             },
-            "time": "2021-10-06T10:34:39+00:00"
+            "time": "2020-08-17T16:45:14+00:00"
         },
         {
             "name": "drupal/core_event_dispatcher",
@@ -24531,6 +24470,7 @@
         "drupal/blazy": 5,
         "drupal/cer": 20,
         "drupal/content_lock": 15,
+        "drupal/core-recommended": 20,
         "drupal/entity_block": 10,
         "drupal/entity_clone": 10,
         "drupal/entity_field_fetch": 10,
@@ -24565,5 +24505,5 @@
     "platform-overrides": {
         "php": "7.3"
     },
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
